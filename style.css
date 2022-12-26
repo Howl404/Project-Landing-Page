@@ -7,6 +7,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Roboto";
 }
 
 .first-section {
@@ -148,4 +149,10 @@ p {
   margin-right: 5rem;
   border: solid 1px white;
   width: 8rem;
+}
+
+footer {
+  background-color: #1f2937;
+  padding: 2rem 25rem 2rem 25rem;
+  text-align: center;
 }
