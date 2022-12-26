@@ -10,7 +10,7 @@ body {
 }
 
 .first-section {
-  padding: 0 5rem 2rem 5rem;
+  padding: 0 10rem 2rem 10rem;
   background-color: #1f2937;
 }
 
@@ -39,21 +39,29 @@ p {
 
 .flex-container div {
   display: flex;
-  flex: 1;
-  justify-content: space-between;
+  justify-content: flex-start;
+}
+
+.flex-container .flex-end,
+.flex-container img {
+  justify-content: flex-end;
 }
 
 .flex-container .no-flex {
   display: block;
-  margin-right: 1rem;
 }
 
 .no-flex * {
   line-height: 1.2;
 }
 
+.flex-end p {
+  margin-left: 2rem;
+}
+
 .first-image {
   height: 16rem;
+  width: 37rem;
 }
 
 .btn {
@@ -65,4 +73,41 @@ p {
   height: 2rem;
   width: 6rem;
   color: white;
+}
+
+.second-section {
+  background-color: white;
+  padding: 0 35rem 2rem 35rem;
+}
+
+.second-section h1 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.second-section p {
+  color: black;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.second-section .flex-container {
+  padding: 1rem;
+  justify-content: space-evenly;
+}
+
+.blue-box {
+  border: solid 2px blue;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 8px;
+  padding: 5px;
+  position: sticky;
+}
+
+.text {
+  text-align: center;
+  width: 7rem;
 }
