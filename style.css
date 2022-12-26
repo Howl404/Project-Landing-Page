@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.first-section {
+  padding: 0 5rem 2rem 5rem;
+  background-color: #1f2937;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+h2 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.flex-container {
+  padding: 0 0 5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-container div {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.flex-container .no-flex {
+  display: block;
+  margin-right: 1rem;
+}
+
+.no-flex * {
+  line-height: 1.2;
+}
+
+.first-image {
+  height: 16rem;
+}
+
+.btn {
+  background-color: #3882f6;
+  border: none;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 6px;
+  height: 2rem;
+  width: 6rem;
+  color: white;
+}
