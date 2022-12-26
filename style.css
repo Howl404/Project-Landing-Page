@@ -14,7 +14,7 @@ body {
   background-color: #1f2937;
 }
 
-h1 {
+.first-section h1 {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
@@ -131,4 +131,21 @@ p {
   margin: -50px 0 0 27rem;
   font-style: normal;
   font-weight: bolder;
+}
+
+.fourth-section {
+  background-color: white;
+  padding: 7rem 25rem 7rem 25rem;
+}
+
+.fourth-container {
+  background-color: #3882f6;
+  border-radius: 8px;
+  padding: 2rem 6rem;
+}
+
+.btn-4 {
+  margin-right: 5rem;
+  border: solid 1px white;
+  width: 8rem;
 }
